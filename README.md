@@ -5,13 +5,13 @@ This program presents real-time information in graphical form by displaying memo
 ## Implementation  
 
 <code><sys/sysinfo.h></code>
- * Gets memory usage using sysinfo()
+ * Retrieves memory usage using sysinfo()
 
 <code>/proc/stat</code>
- * Gets cpu usage and calculates CPU utilization through the differences in the total time and the initial time between samples
+ * Retrieves CPU usage and calculates CPU utilization based on the difference in total CPU time between samples
 
 <code>/proc/cpuinfo</code>
- * Gets the number of cores in the system
+ * Retrieves the number of CPU cores in the system
 
 <code>usleep()</code>
  * In the <unistd.h> library and takes the argument in microseconds
