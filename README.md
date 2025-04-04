@@ -1,6 +1,6 @@
 # System Monitoring Tool 
 
-This program will present the information in real-time in graphical form by displaying the memory, cpu, and cores. This program is intend to run un a Linux OS (IA lab machines).
+This program presents real-time information in graphical form by displaying memory, CPU, and core usage. It is intended to run on a Linux OS (IA lab machines).
 
 ## Implementation  
 
